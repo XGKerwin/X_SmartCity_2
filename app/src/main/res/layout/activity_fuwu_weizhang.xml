@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/a_biaoti_xinwen"/>
+
+    <TextView
+        android:id="@+id/didian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="幸福大道路口"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_xingwei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="违法行为："
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_shuhao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通知书号："
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_jifen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="违章计分："
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_fakuanjine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="罚款金额："
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间：2020-01-02 18:09:1"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="13dp"
+        />
+
+
+
+
+
+</LinearLayout>
