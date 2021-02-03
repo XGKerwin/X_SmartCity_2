@@ -58,6 +58,7 @@ public class Fragment_fuwu extends Fragment {
 
         getServiceByType("智慧服务");
 
+
         return view;
     }
 
